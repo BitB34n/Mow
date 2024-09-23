@@ -112,8 +112,8 @@ class GameMenu:
         # Shuffles the cards
         deck.shuffle_deck()
 
-        # Adds 7 cards to the player hand and computer hand
-        for num in range(7):
+        # Adds 8 cards to the player hand and computer hand
+        for num in range(8):
             player_hand.add_card(deck.deal())
             computer_hand.add_card(deck.deal())
 
